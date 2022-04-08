@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+    		* {
+    			padding: 0px;
+    			margin: 0px;
+			}
+        
+        
+        	.box-red {
+        		
+        		border: 1px solid #000000;
+        		background-color: #ff0000;  
+        		width: 100px;
+        		/*
+        		padding-top: 10px;
+        		padding-right: 20px;
+        		padding-bottom: 30px;
+ 				padding-left: 40px; 
+ 				*/
+ 				
+ 				/* padding: 10px; */
+ 				/*padding: 10px 50px;  /* 상하 좌우*/
+ 				*padding: 10px 20px 30px 40px;    /* 순서는 시계방향 주로 이렇게 사용*/    	
+ 				
+ 				/*
+ 				margin-top: 10px;
+ 				margin-right: 20px;
+ 				margin-bottom: 30px;
+ 				margin-left: 20px;
+ 				*/
+ 				margin: 10px;	   
+ 			/*	margin: 10px 50px;  /*상하 좌우*/ /*틀려도 오류안나고 적용이 안됌. 주의~!
+ 				margin: 10px 20px 30px 40px;  시계방향 */
+ 				
+ 		 	}
+        
+        	
+        
+        </style>
+    </head>
+
+    <body>
+    	<div class="box-red">
+    		div태그
+    	</div>
+    	<div class="box-blue">
+    		div태그
+    	</div>
+   
+        
+
+    </body>
+
+</html>
